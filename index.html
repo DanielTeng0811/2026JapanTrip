@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173a38" />
+    <meta name="description" content="2026 廣島・岡山六日旅行手冊" />
+    <title>瀨戶內的夏天｜2026 廣島・岡山</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Serif+TC:wght@500;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="paper-noise" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="回到首頁">SETOUCHI <span>26</span></a>
+      <nav aria-label="頁面導覽">
+        <a href="#flight">航班</a>
+        <a href="#itinerary">行程</a>
+        <a href="#stay">住宿</a>
+        <a href="#move">交通</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-stamp">AUG<br />19—24<br />2026</div>
+        <p class="eyebrow">HIROSHIMA · OKAYAMA · KURASHIKI</p>
+        <h1 id="hero-title">瀨戶內<br /><em>的夏天</em></h1>
+        <p class="hero-copy">從宮島的海風、岩國的橋，到倉敷的白壁。<br />六天，把夏日收進旅行手冊裡。</p>
+        <div class="countdown" aria-live="polite">
+          <span class="countdown-label">TRIP STATUS</span>
+          <strong id="countdown-value">準備出發</strong>
+        </div>
+        <a class="scroll-hint" href="#itinerary">查看每日安排 <span>↓</span></a>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="mount mount-back"></div>
+          <div class="mount mount-front"></div>
+          <div class="sea"></div>
+          <div class="torii"><i></i><b></b><em></em></div>
+        </div>
+      </section>
+
+      <section class="route-strip" aria-label="旅行路線">
+        <div><span>01</span><strong>廣島</strong><small>8/19 — 8/22</small></div>
+        <span class="route-line" aria-hidden="true">→</span>
+        <div><span>02</span><strong>岡山</strong><small>8/22 — 8/24</small></div>
+        <span class="route-line" aria-hidden="true">→</span>
+        <div><span>03</span><strong>倉敷</strong><small>DAY TRIP</small></div>
+      </section>
+
+      <section class="section flight-section" id="flight" aria-labelledby="flight-title">
+        <div class="section-heading">
+          <p class="eyebrow">FLIGHT PLAN</p>
+          <h2 id="flight-title">怎麼飛？</h2>
+          <p>兩段航班資訊，請預留通關與機場巴士的轉乘時間。</p>
+        </div>
+        <div class="flight-grid">
+          <article class="flight-card outbound">
+            <div class="flight-top"><span>OUTBOUND / 去程</span><strong>CI 112</strong></div>
+            <p class="flight-airline">中華航空 · 8 月 19 日（三）</p>
+            <div class="flight-times"><div><b>07:15</b><span>TPE</span><small>桃園國際機場 T2</small></div><i>→</i><div><b>10:35</b><span>HIJ</span><small>廣島機場</small></div></div>
+            <p class="flight-duration">飛行時間 2 小時 20 分</p>
+          </article>
+          <article class="flight-card inbound">
+            <div class="flight-top"><span>RETURN / 回程</span><strong>IT 215</strong></div>
+            <p class="flight-airline">台灣虎航 · 8 月 24 日（一）</p>
+            <div class="flight-times"><div><b>15:55</b><span>OKJ</span><small>岡山機場</small></div><i>→</i><div><b>17:40</b><span>TPE</span><small>桃園國際機場 T1</small></div></div>
+            <p class="flight-duration">飛行時間 2 小時 45 分</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section itinerary" id="itinerary" aria-labelledby="itinerary-title">
+        <div class="section-heading">
+          <p class="eyebrow">DAY BY DAY</p>
+          <h2 id="itinerary-title">今天，去哪裡？</h2>
+          <p>點選日期，查看景點、用餐與實用連結。</p>
+        </div>
+        <div class="day-controls" aria-label="選擇行程日期">
+          <button class="day-pill active" data-day="all">全部</button>
+          <button class="day-pill" data-day="1">19</button>
+          <button class="day-pill" data-day="2">20</button>
+          <button class="day-pill" data-day="3">21</button>
+          <button class="day-pill" data-day="4">22</button>
+          <button class="day-pill" data-day="5">23</button>
+          <button class="day-pill" data-day="6">24</button>
+        </div>
+        <div class="day-list">
+          <article class="day-card coral" data-day-card="1">
+            <button class="day-summary" aria-expanded="true" aria-controls="day-one">
+              <span class="day-number">DAY <b>01</b></span>
+              <span class="day-date">08.19 <small>WED</small></span>
+              <span class="day-place">抵達廣島</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-one">
+              <div class="timeline">
+                <div><time>07:00</time><p><strong>桃園機場 → 廣島機場</strong><span>啟程，前往瀨戶內。</span></p></div>
+                <div><time>11:00</time><p><strong>廣島機場 → 市區</strong><span>機場交通後，開始市區散步。</span></p></div>
+                <div><time>13:00</time><p><strong>和平紀念公園周邊</strong><span>原爆圓頂館、廣島和平紀念資料館、廣島城、縮景園。</span></p></div>
+              </div>
+              <aside class="tide-note transport-note"><span>巴</span><div><strong>廣島機場 → 市區</strong><p>抵達後前往 <b>1 號月台</b>，搭機場巴士往廣島巴士中心，途中會經過中筋站。</p><button class="card-trigger" type="button" data-modal-target="arrival-modal">查看交通圖卡 ↓</button></div></aside>
+              <aside class="food-note"><span>食</span><p>廣島燒村／廣島燒 電光石火（站前廣場店）／藥研堀 八昌</p></aside>
+              <a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Hiroshima+Peace+Memorial+Park">在地圖開啟 <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="day-card gold" data-day-card="2">
+            <button class="day-summary" aria-expanded="false" aria-controls="day-two">
+              <span class="day-number">DAY <b>02</b></span><span class="day-date">08.20 <small>THU</small></span><span class="day-place">宮島・彌山</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-two" hidden>
+              <div class="timeline"><div><time>去程</time><p><strong>廣島站 → JR 宮島口站</strong><span>從 JR 廣島站搭山陽本線往岩國方向，車程約 25 分鐘；出站後步行約 5 分鐘到渡輪碼頭。</span></p></div><div><time>登島</time><p><strong>宮島口 → 宮島碼頭</strong><span>搭 JR 西日本宮島渡輪或宮島松大汽船，航程約 10 分鐘。若搭 JR 渡輪，可優先選擇靠近大鳥居的航線。</span></p></div><div><time>上山</time><p><strong>紅葉谷公園 → 宮島纜車 → 獅子岩</strong><span>從宮島碼頭步行約 15 分鐘到紅葉谷公園；可搭免費接駁巴士約 3 分鐘，或步行約 10 分鐘到紅葉谷站。纜車經榧谷站轉乘至獅子岩站。</span></p></div><div><time>健行</time><p><strong>獅子岩 → 彌山山頂展望台</strong><span>從獅子岩站步行約 30 分鐘登頂，沿途可看靈火堂、三鬼堂與巨岩；建議穿防滑好走的鞋、帶足飲水。</span></p></div><div><time>下山</time><p><strong>嚴島神社・大鳥居・表參道</strong><span>回到島上後，依潮位欣賞海上神社與大鳥居，再沿表參道慢逛、吃牡蠣與買紅葉饅頭；最後搭渡輪返回宮島口與廣島。</span></p></div></div>
+              <aside class="tide-note"><span>潮</span><div><strong>宮島潮汐提醒（8/20）</strong><p>11:00 潮位 179 cm；大鳥居可步行的時段：無。海上社殿建議觀賞：00:00—03:30、13:15—17:15。</p><button class="card-trigger" type="button" data-modal-target="tide-modal">查看潮汐圖卡 ↓</button></div></aside>
+              <section class="transport-plan" aria-labelledby="miyajima-route-title">
+                <div class="transport-title"><span>ISLAND ROUTE</span><h3 id="miyajima-route-title">不綁時間，照著走就好</h3></div>
+                <ol>
+                  <li><b>從 JR 廣島站出發</b><span>搭 <strong>JR 山陽本線（岩國方向）</strong>至宮島口。相較市電，JR 車程較短，適合把體力留給彌山。</span></li>
+                  <li><b>步行到渡輪碼頭後登島</b><span>JR 宮島口站出來跟著渡輪標示走約 5 分鐘。JR 與松大兩家船班都可搭；想從海上看大鳥居可選 JR 渡輪。</span></li>
+                  <li><b>先上彌山，再慢逛島上</b><span>由宮島碼頭走向紅葉谷公園，搭纜車到獅子岩後步行登頂。先完成山上路線，回程較不會被纜車末班與天候限制。</span></li>
+                  <li><b>纜車分兩段</b><span><strong>紅葉谷站 → 榧谷站 → 獅子岩站</strong>；抵達獅子岩後不是山頂，仍要步行約 30 分鐘到彌山展望台。</span></li>
+                  <li><b>下山後走嚴島神社與表參道</b><span>依潮汐看海上社殿與大鳥居，接著逛表參道。必吃可選牡蠣屋，也可買紅葉饅頭、揚紅葉作伴手禮。</span></li>
+                  <li><b>原路搭船、搭 JR 回廣島</b><span>從宮島碼頭搭渡輪回宮島口，再步行回 JR 宮島口站。回程不用趕固定時段，依體力與想逛的店家調整即可。</span></li>
+                </ol>
+                <div class="ticket-tip"><b>纜車</b><span>紅葉谷站可用信用卡、交通 IC 卡與 PayPay 購票；建議直接買來回票。風雨或強風可能影響運行，出發當天先看官方公告。</span></div>
+                <p class="route-tight"><strong>自由走法：</strong>這天不綁時間。唯一原則是先確認纜車的最晚下山時間；彌山完成後，再依潮位安排嚴島神社、大鳥居與表參道。</p>
+              </section>
+              <aside class="food-note"><span>食</span><p>牡蠣屋（必吃）／表參道紅葉饅頭・揚紅葉／島上小店與伴手禮</p></aside>
+              <div class="link-pair"><a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Itsukushima+Shrine">嚴島神社地圖 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://miyajima-ropeway.info/">宮島纜車官方 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://jr-miyajimaferry.co.jp/tc/">JR 渡輪官方 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://chugoku.letsgojp.com/archives/373001/">宮島攻略 <span>↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="day-card indigo" data-day-card="3">
+            <button class="day-summary" aria-expanded="false" aria-controls="day-three">
+              <span class="day-number">DAY <b>03</b></span><span class="day-date">08.21 <small>FRI</small></span><span class="day-place">岩國・廣島逛街</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-three" hidden>
+              <div class="timeline"><div><time>09:00</time><p><strong>錦帶橋・岩國城</strong><span>走過五連拱橋，再上山看城景。</span></p></div><div><time>15:00</time><p><strong>廣島逛街</strong><span>留一段自由時間，補齊伴手禮。</span></p></div></div>
+              <aside class="food-note"><span>食</span><p>瓦片蕎麥麵／岩國壽司</p></aside>
+              <div class="link-pair"><a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Kintaikyo+Bridge">錦帶橋地圖 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://www.gltjp.com/zh-hant/article/item/20556/#zh-10-130">旅行參考 <span>↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="day-card moss" data-day-card="4">
+            <button class="day-summary" aria-expanded="false" aria-controls="day-four">
+              <span class="day-number">DAY <b>04</b></span><span class="day-date">08.22 <small>SAT</small></span><span class="day-place">移動至岡山</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-four" hidden>
+              <div class="timeline"><div><time>08:00</time><p><strong>廣島 → 岡山</strong><span>退房後前往岡山。</span></p></div><div><time>11:00</time><p><strong>午餐</strong><span>抵達後先好好吃一餐。</span></p></div><div><time>12:00</time><p><strong>岡山城・後樂園</strong><span>黑色城郭與日本三名園的午後。</span></p></div></div>
+              <aside class="food-note"><span>食</span><p>麵酒一照庵 岡山本店</p></aside>
+              <a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Okayama+Korakuen+Garden">在地圖開啟 <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="day-card clay" data-day-card="5">
+            <button class="day-summary" aria-expanded="false" aria-controls="day-five">
+              <span class="day-number">DAY <b>05</b></span><span class="day-date">08.23 <small>SUN</small></span><span class="day-place">兒島・瀨戶大橋・鷲羽山</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-five" hidden>
+              <div class="timeline"><div><time>08:00</time><p><strong>倉敷美觀地區</strong><span>保留白壁、柳樹與運河的慢早晨；為配合展望台巴士，最晚 11:15 回到 JR 倉敷站。</span></p></div><div><time>11:15</time><p><strong>JR 倉敷站 → 岡山站</strong><span>搭山陽本線普通列車往岡山，11:33 抵達；轉往瀨戶大橋線月台。</span></p></div><div><time>11:42</time><p><strong>岡山站 → JR 兒島站</strong><span>岡山站 8 號月台搭「快速 Marine Liner 27」往高松，12:03 抵達兒島。</span></p></div><div><time>12:30</time><p><strong>JR 兒島站 → 鷲羽山第二展望台</strong><span>從西口 4 號公車站搭「とこはい號」臨時便，12:59 抵達。先看瀨戶大橋與瀨戶內海最開闊的視角。</span></p></div><div><time>15:59</time><p><strong>鷲羽山第二展望台 → 兒島站</strong><span>搭回程巴士，16:20 抵達兒島站；接著步行約 15 分鐘前往牛仔褲街。</span></p></div><div><time>16:35</time><p><strong>兒島牛仔褲街</strong><span>逛味野商店街、拍照與尋找想買的丹寧單品；建議 17:50 前步行回車站。</span></p></div><div><time>18:11</time><p><strong>JR 兒島站 → 岡山站</strong><span>搭快速 Marine Liner 52 往岡山，18:32 抵達岡山站。</span></p></div></div>
+              <section class="transport-plan" aria-labelledby="kojima-route-title">
+                <div class="transport-title"><span>HALF-DAY CONNECTION</span><h3 id="kojima-route-title">照著走：倉敷 → 鷲羽山 → 兒島牛仔褲街</h3></div>
+                <ol>
+                  <li><b>11:15 離開倉敷</b><span>從 <strong>JR 倉敷站</strong>搭普通岡山行，11:33 到岡山。轉乘時間只有 9 分鐘，抵達後請依站內標示直接前往瀨戶大橋線。</span></li>
+                  <li><b>11:42 岡山站 8 號月台</b><span>搭快速 Marine Liner 27（高松方向）→ <strong>12:03 抵達 JR 兒島站</strong>。這段不用換車，普通車自由席即可。</span></li>
+                  <li><b>12:30 西口 4 號站牌</b><span>搭下津井循環線「とこはい號」臨時便，<strong>12:59 到鷲羽山第二展望台</strong>。請先跟著站內的「鷲羽山」方向指示走到西口。</span></li>
+                  <li><b>鷲羽山先看 3 小時</b><span>12:59 抵達後可慢慢看瀨戶大橋、瀨戶內海與周邊步道；<strong>15:59 在第二展望台上回程車</strong>，16:20 回到兒島站。</span></li>
+                  <li><b>16:20 回到兒島，再去牛仔褲街</b><span>從車站步行約 15 分鐘到味野商店街的牛仔褲街；街道約 400 公尺。各店關門時間不同，抵達後優先逛最想看的店。</span></li>
+                  <li><b>18:11 回岡山</b><span>建議 <strong>17:50 從牛仔褲街步行回站</strong>；搭 18:11 快速 Marine Liner 52，18:32 抵達岡山站。</span></li>
+                </ol>
+                <div class="ticket-tip"><b>票券</b><span>「とこはい號」成人一日券 ¥520，可在車內或兒島營業所購買；當天會搭來回時較方便。</span></div>
+                <p class="route-tight"><strong>節奏提醒：</strong>順序已調整為先看鷲羽山、再去牛仔褲街；代價是倉敷需於 11:15 離開。牛仔褲街的各店營業時間不同，抵達後建議優先看想逛的店。</p>
+                <p class="service-alert"><strong>出發前必看：</strong>此路段目前為臨時繞行，公告為「當面の間」。8/23 出發前請重新查看下電巴士最新消息與時刻表。</p>
+              </section>
+              <div class="link-pair"><a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Kojima+Jeans+Street">牛仔褲街地圖 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Washuzan+Second+Observatory">鷲羽山地圖 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://tingandkao.com/washuzan/">觀景台攻略 <span>↗</span></a><a class="map-link" target="_blank" rel="noreferrer" href="https://shimoden.net/rosen/rosen/tokohai.html">官方巴士資訊 <span>↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="day-card charcoal" data-day-card="6">
+            <button class="day-summary" aria-expanded="false" aria-controls="day-six">
+              <span class="day-number">DAY <b>06</b></span><span class="day-date">08.24 <small>MON</small></span><span class="day-place">岡山市區</span><span class="toggle-mark">＋</span>
+            </button>
+            <div class="day-detail" id="day-six" hidden>
+              <div class="timeline"><div><time>09:00</time><p><strong>飯店退房・寄放行李</strong><span>退房後在岡山站周邊最後採買與散步；最晚 12:30 回到岡山站西口。</span></p></div><div><time>12:55</time><p><strong>岡山站西口 → 岡山機場</strong><span>在西口 <b>21 號乘車處</b>搭岡電巴士特急，13:25 抵達岡山機場。</span></p></div><div><time>13:25</time><p><strong>抵達岡山機場・辦理報到</strong><span>距離 15:55 起飛約 2 小時 30 分；先完成報到、托運與安檢，再悠閒候機。</span></p></div><div><time>15:55</time><p><strong>IT 215 岡山 → 桃園</strong><span>帶著瀨戶內的回憶回家。</span></p></div></div>
+              <aside class="tide-note transport-note"><span>巴</span><div><strong>岡山站 → 岡山機場</strong><p>請從岡山站 <b>西口 21 號乘車處</b>搭機場巴士。建議搭 12:55 班，13:25 抵達，預留充足報到時間。</p><button class="card-trigger" type="button" data-modal-target="departure-modal">查看岡山機場巴士圖卡 ↓</button></div></aside>
+              <a class="map-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Okayama+Station">岡山站地圖 <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stay-section" id="stay" aria-labelledby="stay-title">
+        <div class="section-heading"><p class="eyebrow">SLEEP WELL</p><h2 id="stay-title">今晚住哪裡？</h2></div>
+        <div class="hotel-grid">
+          <article class="hotel-card hiroshima"><div class="hotel-index">01 / HIROSHIMA</div><p class="hotel-dates">8.19 — 8.22</p><h3>廣島麗嘉皇家<br />飯店</h3><p class="hotel-jp">Rihga Royal Hotel Hiroshima</p><p class="check-times">入住 15:00 後 · 退房 11:00 前<br />3 位成人 · 禁菸標準雙床房</p><address>〒730-0011<br />広島市中区基町6-78</address><div class="hotel-actions"><a href="tel:+81825021121">撥打電話</a><a target="_blank" rel="noreferrer" href="https://www.rihga.co.jp/hiroshima/">官方網站 ↗</a></div></article>
+          <article class="hotel-card okayama"><div class="hotel-index">02 / OKAYAMA</div><p class="hotel-dates">8.22 — 8.24</p><h3>岡山格蘭比亞<br />飯店</h3><p class="hotel-jp">Hotel Granvia Okayama</p><p class="check-times">入住 18:00 後 · 退房 09:00 前<br />3 位成人 · 禁菸家庭房（32㎡）</p><address>〒700-8515<br />岡山県岡山市北区駅元町1−5</address><div class="hotel-actions"><a href="tel:+81862347000">撥打電話</a><a target="_blank" rel="noreferrer" href="https://www.granvia-oka.co.jp/">官方網站 ↗</a></div></article>
+        </div>
+      </section>
+
+      <section class="section transit-section" id="move" aria-labelledby="move-title">
+        <div class="section-heading"><p class="eyebrow">MOVE LIGHTLY</p><h2 id="move-title">交通小抄</h2></div>
+        <div class="transit-card"><div class="ticket-cut"></div><span class="ticket-label">TRANSIT NOTE</span><h3>先準備一張<br /><em>IC 卡</em></h3><p>建議儲值 <strong>¥1,500</strong>，搭乘市區交通更方便。</p><div class="transit-route"><span>廣島機場 #1 月台</span><b>→</b><span>中筋站</span><b>→</b><span>廣島巴士中心</span></div><p class="small-note">廣島機場巴士：往廣島巴士中心，經中筋站。回程則從岡山站西口 21 號乘車處前往岡山機場。</p></div>
+      </section>
+
+      <dialog class="info-modal" id="arrival-modal" aria-labelledby="arrival-modal-title">
+        <section class="modal-card">
+          <header class="modal-heading"><div><span>ARRIVAL TRANSIT</span><h2 id="arrival-modal-title">廣島機場 → 廣島市區</h2></div><button class="modal-close" type="button" data-modal-close aria-label="關閉交通圖卡">×</button></header>
+          <p>從廣島機場 <b>1 號月台</b>搭巴士前往廣島巴士中心，途中經過中筋站。月台位置與班次請以圖卡及當日公告為準。</p>
+          <div class="image-grid transit-images"><img src="assets/hiroshima-airport-bus-stops.jpeg" alt="廣島機場巴士月台指引，1 號月台前往廣島巴士中心" /><img src="assets/hiroshima-airport-bus-timetable.png" alt="廣島機場至廣島巴士中心時刻表" /></div>
+        </section>
+      </dialog>
+
+      <dialog class="info-modal" id="tide-modal" aria-labelledby="tide-modal-title">
+        <section class="modal-card">
+          <header class="modal-heading"><div><span>TIDE REFERENCE</span><h2 id="tide-modal-title">宮島 · 潮汐資訊</h2></div><button class="modal-close" type="button" data-modal-close aria-label="關閉潮汐圖卡">×</button></header>
+          <p>8 月 20 日為小潮。11:00 潮位為 179 cm；依原資料，大鳥居當日沒有適合步行的時段。</p>
+          <div class="image-grid tide-grid"><img src="assets/miyajima-tide-guide.png" alt="2026 年 8 月 20 日宮島潮汐與海上社殿觀賞時段" /><img src="assets/miyajima-tide-table.png" alt="2026 年 8 月 20 日宮島逐時潮位表" /></div>
+        </section>
+      </dialog>
+
+      <dialog class="info-modal" id="departure-modal" aria-labelledby="departure-modal-title">
+        <section class="modal-card">
+          <header class="modal-heading"><div><span>DEPARTURE TRANSIT</span><h2 id="departure-modal-title">岡山站 → 岡山機場</h2></div><button class="modal-close" type="button" data-modal-close aria-label="關閉岡山機場巴士圖卡">×</button></header>
+          <p>15:55 航班建議選擇 <b>12:55 岡山站西口出發、13:25 抵達機場</b>的班次，可預留約 2 小時 30 分鐘辦理報到、托運與安檢。</p>
+          <div class="image-grid transit-images"><img src="assets/okayama-airport-bus-stops.png" alt="岡山機場與岡山站西口機場巴士乘車處位置圖" /><img src="assets/okayama-airport-bus-timetable.png" alt="岡山站西口至岡山機場與回程巴士時刻表" /></div>
+        </section>
+      </dialog>
+    </main>
+
+    <footer><p>2026 HIROSHIMA · OKAYAMA</p><a href="#top">回到上方 ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
